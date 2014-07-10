@@ -64,7 +64,7 @@ if ( !$_product->is_in_stock () ) {
     
     do_action( 'woocommerce_before_add_to_cart_form' );
     ?>       
-    <form action="<?php echo plugins_url('/woocommerce-avise-me/avise-me.php'); ?>" method="POST">
+    <form action="<?php echo plugins_url('/woocommerce-avise-me/avise-me.php'); ?>" method="POST" id="avisa">
 <?php if($availability['availability'] = __('Sem Estoque', 'woocommerce'));
 
 ?>
