@@ -1,7 +1,7 @@
 jQuery(document).ready(function() {
 
 	// process the form
-	jQuery('form').submit(function(event) {
+	jQuery('#avisa').submit(function(event) {
 
 		jQuery('.form-group').removeClass('has-error'); // remove the error class
 		jQuery('.help-block').remove(); // remove the error text
