@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: WooCommerce Avise-me
-Plugin URI: http://www.interativashop.com.br/
+Plugin URI: http://www.moskatus.com.br/
 Description: WooCommerce Avise-me
-Author: Interativa Shop
-Author URI: http://www.interativashop.com.br
+Author: Moskatus
+Author URI: http://www.moskatus.com.br
 Version: 1.0.0
 
 */
@@ -39,10 +39,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 					// ...
 				}
 				
-				// indicates we are being served over ssl
-				if ( is_ssl() ) {
-					// ...
-				}
+				
     
 				// take care of anything else that needs to be done immediately upon plugin instantiation, here in the constructor
 			}
